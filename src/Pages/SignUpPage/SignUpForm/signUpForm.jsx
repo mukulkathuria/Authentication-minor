@@ -3,27 +3,13 @@ import { Formik, Form } from "formik";
 import FormikControl from "../../../Components/Formik/formikControl";
 import initialValue from "./Validation/initials";
 import validationSchema from "./Validation/validations";
-import axios from "axios";
-
+import onSubmitForm from './Validation/onSumbiting';
 const SignUpForm = () => {
-  const onSubmit = (values, submitprop) => {
-    axios
-      .post("http://localhost:9000/users/auth", values)
-      .then((res) => {
-        const { headers } = res;
-        sessionStorage.setItem("x-token", headers["x-auth-token"]);
-        window.location = "/user/Mike";
-      })
-      .catch((err) => {
-        submitprop.setSubmitting(false);
-        submitprop.setFieldError("email", err.response.data.message);
-      });
-  };
   return (
     <Formik
       initialValues={initialValue}
       validationSchema={validationSchema}
-      onSubmit={onSubmit}
+      onSubmit={onSubmitForm}
     >
       {(formik) => (
         <Form>

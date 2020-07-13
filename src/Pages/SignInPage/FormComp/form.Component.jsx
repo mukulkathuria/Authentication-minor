@@ -1,29 +1,16 @@
 import React from "react";
-import axios from "axios";
 import { Formik, Form } from "formik";
 import FormikControl from "../../../Components/Formik/formikControl";
 import initialValue from "./Validation/initials";
 import validationSchema from "./Validation/validations";
+import onSubmitForm from "./Validation/submitting";
 
-const SignInForm = (props) => {
-  const onSubmit = (values, submitprops) => {
-    axios
-      .post("http://localhost:9000/users/login", values)
-      .then((res) => {
-        const { headers } = res;
-        sessionStorage.setItem("x-token", headers["x-auth-token"]);
-        window.location = "/user/Mike";
-      })
-      .catch((err) => {
-        submitprops.setSubmitting(false);
-        submitprops.setFieldError("password", err.response.data.message);
-      });
-  };
+const SignInForm = () => {
   return (
     <Formik
       initialValues={initialValue}
       validationSchema={validationSchema}
-      onSubmit={onSubmit}
+      onSubmit={onSubmitForm}
     >
       {(formik) => (
         <Form>
@@ -44,7 +31,7 @@ const SignInForm = (props) => {
             type="submit"
             disabled={!formik.isValid || formik.isSubmitting}
           >
-            {formik.isSubmitting ? 'Checking User' : 'Login'}
+            {formik.isSubmitting ? "Checking User" : "Login"}
           </button>
         </Form>
       )}
