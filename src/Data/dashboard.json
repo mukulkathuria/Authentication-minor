@@ -1,0 +1,169 @@
+[
+    {
+        "name":"Mike",
+        "repository":[
+            "Authentication",
+            "Form-Validation",
+            "Facebook-Architech",
+            "Ios app-minor"
+        ],
+        "suggestions":[
+            {
+                "id":"1",
+                "title":"awesome/swift",
+                "body":"collaborated list of awesome swift libraries and resources Feel free to contribute",
+                "lang":"Swift",
+                "star":"18.k"
+            },
+            {
+                "id":"2",
+                "title":"awesome calender",
+                "body":"The Official iOS Swift Calender View.Swift Calender libraries",
+                "lang":"Swift",
+                "star":"18.k"
+            },
+            {
+                "id":"3",
+                "title":"Apple/ios-apps",
+                "body":"Collabroted list of Open Sources iOS Apps",
+                "lang":"Swift",
+                "star":null
+            }
+        ],
+        "data":[
+            {
+                "id":"1",
+                "status":"devilsharma is started folowing you",
+                "title":"AdarshHogla/3499ji",
+                "body":"Noob fullstack dev",
+                "img1":"../../images/man.svg",
+                "img2":"../../images/random2.jpg",
+                "followers":4,
+                "repo":7
+            },
+            {
+                "id":"2",
+                "status":"Manish is started folowing you",
+                "title":"AkashSharma/Python394i4",
+                "body":"Student Passionate Coder learn Devops",
+                "img1":"../../images/man.svg",
+                "img2":"../../images/random2.jpg",
+                "followers":4,
+                "repo":7
+            },
+            {
+                "id":"3",
+                "status":"VinayNanda is started folowing you",
+                "title":"AkashSharma/CSEfork",
+                "body":"Student Passionate Coder learn Devops",
+                "img1":"../../images/man.svg",
+                "img2":"../../images/random2.jpg",
+                "followers":4,
+                "repo":7
+            },
+            {
+                "id":"4",
+                "status":"Umeshbansal is started folowing you",
+                "title":"geek/computers",
+                "body":"My python Examples",
+                "img1":"../../images/man.svg",
+                "img2":"../../images/random2.jpg",
+                "followers":4,
+                "repo":7
+            },
+            {
+                "id":"5",
+                "status":"MukeshSingh is started folowing you",
+                "title":"Python-poetry/Python",
+                "body":"My Python poetry",
+                "img1":"../../images/man.svg",
+                "img2":"../../images/random2.jpg",
+                "followers":4,
+                "repo":0
+            }
+        ]
+    },
+    {
+        "name":"Mukul",
+        "repository":[
+            "Ios-clock-Calender",
+            "Android-react-minor",
+            "electron-app-minor"
+        ],
+        "suggestions":[
+            {
+                "id":"1",
+                "title":"awesome/swift",
+                "body":"collaborated list of awesome swift libraries and resources Feel free to contribute",
+                "lang":"Swift",
+                "star":"18.k"
+            },
+            {
+                "id":"2",
+                "title":"awesome calender",
+                "body":"The Official iOS Swift Calender View.Swift Calender libraries",
+                "lang":"Swift",
+                "star":"18.k"
+            },
+            {
+                "id":"3",
+                "title":"Apple/ios-apps",
+                "body":"Collabroted list of Open Sources iOS Apps",
+                "lang":"Swift",
+                "star":null
+            }
+        ],
+        "data":[
+            {
+                "id":"1",
+                "status":"KaushikSharma is started folowing you",
+                "title":"AdarshSharma/3499ji",
+                "body":"react fullstack dev",
+                "img1":"../../images/man.svg",
+                "img2":"../../images/random2.jpg",
+                "followers":4,
+                "repo":7
+            },
+            {
+                "id":"2",
+                "status":"KapilSisodia is started folowing you",
+                "title":"AkashSharma/Python394i4",
+                "body":"Student Proffesional Coder learn AngularJs",
+                "img1":"../../images/man.svg",
+                "img2":"../../images/random2.jpg",
+                "followers":6,
+                "repo":4
+            },
+            {
+                "id":"3",
+                "status":"VinayNanda is started folowing you",
+                "title":"AkashSharma/CSEfork",
+                "body":"Student Passionate Coder learn Devops",
+                "img1":"../../images/man.svg",
+                "img2":"../../images/random2.jpg",
+                "followers":19,
+                "repo":10
+            },
+            {
+                "id":"4",
+                "status":"Umeshbansal is started folowing you",
+                "title":"geek/computers",
+                "body":"My python Examples",
+                "img1":"../../images/man.svg",
+                "img2":"../../images/random2.jpg",
+                "followers":14,
+                "repo":2
+            },
+            {
+                "id":"5",
+                "status":"MukeshAggraval is started folowing you",
+                "title":"Python-poetry/Python",
+                "body":"My Python poetry",
+                "img1":"../../images/man.svg",
+                "img2":"../../images/random2.jpg",
+                "followers":40,
+                "repo":9
+            }
+        ]
+    }
+]
